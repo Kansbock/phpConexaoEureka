@@ -159,5 +159,11 @@ VALUES
     (159, 27, 10),
     (161, 27, 5)
     ;
+INSERT INTO coordenadas (estandes, x, y)
+VALUES 
+    (900, 24, 59),
+    (901, 24, 59),
+    (902, 24, 59)
+    ;
 select x, y from coordenadas where estandes=1;
 drop table coordenadas;
